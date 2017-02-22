@@ -1,0 +1,12 @@
+COMPONENTS OF HADOOP
+HDFS : Hadoop distributed file system(HDFS) is a storage system in the hadoop 2.x. This storage system has high capacity of about 5 petabyte.
+This hdfs stores the file in block formate each block has a storage capacity of 128 mb. This also provide replication service so tha dadat cannot be lost.
+Each system has replication factor of 3.HDFS comprises of 3 important components-NameNode, DataNode and Secondary NameNode. HDFS operates on a Master-Slave
+architecture model where the NameNode acts as the master node for keeping a track of the storage cluster and the DataNode acts as a slave node summing up to 
+the various systems within a Hadoop cluster.
+
+Map Reduce:Map reduce is the place where the stored data is processed. MapReduce breaks down a big data processing job into smaller tasks. MapReduce is responsible 
+for the analysing large datasets in parallel before reducing it to find the results. In the Hadoop ecosystem, Hadoop MapReduce is a framework based on YARN architecture. 
+YARN based Hadoop architecture, supports parallel processing of huge data sets and MapReduce provides the framework for easily writing applications on thousands of nodes, 
+considering fault and failure management.
+
